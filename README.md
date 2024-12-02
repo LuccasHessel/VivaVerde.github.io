@@ -4,7 +4,7 @@
 - **Luccas Maia Hessel**
 
 ## ODS Selecionado
-- ODS 2: Fome Zero e Agricultura Sustentável
+- ODS 3: Saúde e bem-estar.
 
 ## Descrição do Projeto
 O projeto "Viva Verde" tem como objetivo promover o cultivo sustentável de alimentos em casa, incentivando uma alimentação saudável e livre de alimentos ultraprocessados. Através de informações sobre como cultivar ervas, frutas e vegetais, o site oferece orientações práticas sobre o tempo de cultivo, características do solo, quantidade de água necessária e melhor temperatura. O projeto busca contribuir para a segurança alimentar e para uma vida mais saudável.
