@@ -1,0 +1,141 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.borda{
+    background-color: white;
+    border: 2px solid black;
+    padding:20px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+header {
+    background-color: rgb(15, 43, 5);
+    display: flex;
+    align-items: center; 
+    /**/
+    width: 100%;
+    margin: 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    width: 325px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px; 
+}
+
+header section{
+    display: flex;
+    flex-direction: column;
+}
+
+header .title { 
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+header .text {
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+form{
+    color: white;
+    margin-left: 100px;
+}
+
+form p{
+    font-size: 20px;
+    max-width: 300px;
+}
+
+form .container{
+    display: flex;
+    flex-direction: row;
+}
+
+form input{
+    width: 210px;
+}
+
+form .botao{
+    max-width: 70px;
+    margin-left: 10px;
+}
+
+body{
+    background-image: url(figs/fundo.jpg);
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-size: cover;
+}
+section .bordal{
+    border: 2px solid black;
+    padding:20px 40px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.bordal li{
+    margin-bottom: 15px;
+}
+
+.sect .title{
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.sect .text{
+    font-size: 18px;
+    width: 88%;
+    text-indent: 0px;
+    margin-top: 0px;
+    margin-left: 78px;
+}
+
+article h3{
+    font-size: 24px;
+}
+
+article .title{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+article img{
+
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 43, 5);
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    bottom: 0;
+    z-index: 1000;
+}
+
+footer a{
+    color: rgb(255, 255, 255);
+}
+
