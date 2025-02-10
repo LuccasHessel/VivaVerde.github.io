@@ -13,14 +13,16 @@ O projeto "Viva Verde" tem como objetivo promover o cultivo sustentável de alim
 
 O projeto "Viva Verde" está estruturado da seguinte forma:
 
-- **Cabeçalho**: Nome do projeto e seu slogan, apresentação do objetivo do site, e espaço de cadastro de e-mail para novas atualizações sobre o projeto.
+- **Cabeçalho**: Nome do projeto e seu slogan, apresentação do objetivo do site, e um botão que nos leva à página de cadastro de usuários.
 - **"Por que cultivar em casa?"**: Informações sobre o cultivo em casa e alguns de seus benefícios.
 - **"O que você pode cultivar:"**: Três seções sobre o cultivo de diferentes tipos de plantas (ervas, frutas e vegetais), com detalhes sobre tempo de cultivo, tipo de solo, temperatura adequada e quantidade de água necessária.
+- **Área de Cadastro de Usuários**: Uma página administrativa onde o administrador pode cadastrar, visualizar e pesquisar usuários, e excluir registros.
 - **Rodapé**: Contém os créditos para as imagens utilizadas e também para os desenvolvedores.
   
 ## Tecnologias Utilizadas
 - **HTML**: Estrutura básica do site.
 - **CSS**: Estilo e design do site.
+- **JavaScript**: Interatividade, manipulação do DOM e Web Storage.
 
 ## Como Usar
 
