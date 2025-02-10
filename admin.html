@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viva Verde - Cadastro</title>
+    <link rel="icon" type="image/png" href="figs/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <img src="figs/logo.png" alt="Viva Verde Logo" class="logo">
+        <section>
+            <h1 class="title">Painel de Administração - Cadastro de Usuários</h1>
+        </section>
+    </header>
+
+    <section class="sect borda">
+        <h2 class="title">Cadastrar Usuário</h2>
+        <form id="uForm">
+            <div class="entrada">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+                <label class = "email" for="email">E-mail:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="container">
+                <button type="submit">Cadastrar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+
+        <h2 class="title">Usuários Cadastrados</h2>
+        <div class="procura">
+            <input type="text" id="pesquisa" placeholder="Pesquisar usuário...">
+            <ul id="lista"></ul>
+            <button id="eTodos">Excluir Todos</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>Fotos por:
+            <a href="https://www.pexels.com/pt-br/@markusspiske/">Markus Spiske</a>
+        </p>
+        <p>&copy; 2025 Viva Verde</p>
+    </footer>
+
+    
+
+</body>
+</html>

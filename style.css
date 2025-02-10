@@ -49,29 +49,31 @@ header .text {
     max-width: 600px;
 }
 
-form{
+.pForm{
     color: white;
     margin-left: 100px;
 }
 
-form p{
+.pForm p{
     font-size: 20px;
     max-width: 300px;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
-form .container{
+.pForm .container{
     display: flex;
     flex-direction: row;
 }
 
-form input{
-    width: 210px;
+.botao {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 150px;
 }
 
-form .botao{
-    max-width: 70px;
-    margin-left: 10px;
-}
 
 body{
     background-image: url(figs/fundo.jpg);
@@ -139,3 +141,48 @@ footer a{
     color: rgb(255, 255, 255);
 }
 
+/*!-----ADMIN-----!*/
+
+#uForm .entrada{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    width: 88%;
+    text-indent: 0px;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+
+#uForm .email{
+    margin-left: 93px;
+}
+
+input{
+    width: 210px;
+}
+
+#uForm .container{
+    display: flex;
+    margin-right: 60px;
+    justify-content: center;
+}
+
+.procura{
+    margin-left: 135px;
+}
+
+.container button{
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 100px;
+}
+
+#eTodos{
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 0px;
+}
